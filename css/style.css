@@ -1,0 +1,80 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.red, .blue, .green {
+  position: static;
+  width: 200px;
+  height: 200px;
+}
+
+.red, .redb, .redc, .redd, .rede{
+  background: #ee3e64;
+}
+
+.blue, .blueb, .bluec, .blued, .bluee{
+  background: #44accf;
+}
+
+.green, .greenb, .greenc, .greend, .greene{
+  background: #b7d84b;
+}
+
+.redb, .blueb, .greenb{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.redc, .bluec, .greenc{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.bluec{
+  left: 200px;
+}
+
+.redd, .blued, .greend{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.blued{
+  left: 200px;
+}
+
+.greend{
+  top: 200px;
+}
+
+.rede, .bluee, .greene, .yellow{
+  width: 200px;
+  height: 200px;
+}
+
+.rede{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.bluee{
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.greene{
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+.yellow{
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  background: #ebde52;
+}
